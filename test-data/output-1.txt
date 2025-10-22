@@ -1,0 +1,22 @@
+# 1. Torpedó kilövése SINGLE módban
+# A hajó létrehozását mindig SUCCESS állapottal értékeljük.
+SUCCESS
+SUCCESS
+
+# 2. Felváltva lövés SINGLE módban
+SUCCESS
+SUCCESS
+FAIL
+
+# 3. Ha a következő tár üres, a másik lövési módot használjuk SINGLE módban
+SUCCESS
+SUCCESS
+
+# 4. Ha a torpedó lövése sikertelen, nem próbálkozunk a másik tárral SINGLE módban
+SUCCESS
+FAIL
+
+# 5. Mindkét torpedó kilövése ALL módban
+SUCCESS
+SUCCESS
+FAIL

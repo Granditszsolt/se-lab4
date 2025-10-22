@@ -1,0 +1,21 @@
+# 1. Torpedó kilövése SINGLE móddal
+GT4500,1,0,1,1.0
+TORPEDO,SINGLE
+
+# 2. Felváltva lövés SINGLE módban
+GT4500,2,0,2,1.0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+
+# 3. Ha a következő tár üres, a másik lövési módot használjuk SINGLE módban
+GT4500,0,0,1,0
+TORPEDO,SINGLE
+
+# 4. Ha a torpedó lövése sikertelen, nem próbálkozunk a másik tárral SINGLE módban
+GT4500,1,1.0,1,0
+TORPEDO,SINGLE
+
+# 5. Mindkét torpedó kilövése ALL módban
+GT4500,1,0,1,0
+TORPEDO,ALL
+TORPEDO,SINGLE
