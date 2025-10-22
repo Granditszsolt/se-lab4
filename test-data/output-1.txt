@@ -20,3 +20,15 @@ FAIL
 SUCCESS
 SUCCESS
 FAIL
+
+# 6. ALL módban, ha az egyik tár üres, a másik lövési módot használja
+SUCCESS
+SUCCESS
+
+# 7. A tárak üresek ALL módban, nem lövünk
+SUCCESS
+FAIL
+
+# 8. A tárak üresek SINGLE módban, nem lövünk
+SUCCESS
+FAIL
