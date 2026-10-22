@@ -1,0 +1,3 @@
+# The primary topredo bay will always malfunction.
+GT4500,10,1.0,10,0
+TORPEDO,SINGLE
