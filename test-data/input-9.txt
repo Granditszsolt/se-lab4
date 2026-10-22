@@ -1,0 +1,4 @@
+# Primary bay is always ready to fire, meanwhile the secondary bay always malfunctions.
+GT4500,10,0,10,1.0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
